@@ -11,7 +11,7 @@ import ec.edu.espe.arquitectura.correccion.dto.empleadoPagoDto;
 
 @Document(collection = "pagoRol")
 public class pagoRol {
-    
+
 @Id
     private String mes;
     private Date fechaProceso;
@@ -61,10 +61,10 @@ public class pagoRol {
     public List<empleadoPagoDto> getEmpleadosPago() {
         return empleadosPago;
     }
-    public void setEmpleadosPago(List<EmpleadoPagoDto> list) {
+    public void setEmpleadosPago(List<empleadoPagoDto> list) {
         this.empleadosPago = list;
     }
-    public PagoRol(String mes, Date fechaProceso, String rucEmpresa, String cuentaPrincipal, BigDecimal valorTotal,
+    public pagoRol(String mes, Date fechaProceso, String rucEmpresa, String cuentaPrincipal, BigDecimal valorTotal,
             BigDecimal valorReal, List<empleadoPagoDto> empleadosPago) {
         this.mes = mes;
         this.fechaProceso = fechaProceso;

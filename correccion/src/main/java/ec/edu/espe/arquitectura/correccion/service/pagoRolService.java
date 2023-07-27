@@ -45,7 +45,7 @@ public class pagoRolService {
         return pagoRol;
     }
 
-    private pagoRolDto PagoRolToPagoRolDto(pagoRol pagoRol) {
+    private pagoRolDto pagoRolToPagoRolDto(pagoRol pagoRol) {
         pagoRolDto pagoRolDTO = new pagoRolDto();
         pagoRolDTO.setMes(pagoRol.getMes());
         pagoRolDTO.setFechaProceso(pagoRol.getFechaProceso());
