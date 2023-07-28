@@ -54,5 +54,5 @@ public class pagoRolService {
         pagoRolDTO.setEmpleadosPago(pagoRol.getEmpleadosPago());
         return pagoRolDTO;
     }
-    
+
 }

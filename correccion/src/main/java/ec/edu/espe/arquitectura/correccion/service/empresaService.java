@@ -13,7 +13,7 @@ public class empresaService {
     @Autowired
     empresaRepository empresaRepository;
 
-    
+
     public empresaService(empresaRepository empresaRepository) {
         this.empresaRepository = empresaRepository;
     }
