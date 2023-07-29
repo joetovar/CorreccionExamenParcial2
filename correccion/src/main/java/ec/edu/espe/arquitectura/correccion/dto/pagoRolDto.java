@@ -51,6 +51,4 @@ public class pagoRolDto {
         this.empleadosPago = empleadosPago;
     }
 
-    
-    
 }

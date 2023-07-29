@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-CorreccionApplication<correccion>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "ec.edu.espe.arquitectura.correccion.CorreccionApplication",
+            "projectName": "correccion",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

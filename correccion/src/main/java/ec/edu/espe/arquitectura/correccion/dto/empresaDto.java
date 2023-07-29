@@ -39,6 +39,4 @@ public class empresaDto {
         this.cuentaPrincipal = cuentaPrincipal;
         this.empleados = empleados;
     }
-    
-    
 }
